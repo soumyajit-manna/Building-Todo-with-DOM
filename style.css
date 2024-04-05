@@ -1,0 +1,48 @@
+todo-app{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Arial,sans-serif;
+}
+input { padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 10px; 
+}
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:#4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+}
+.Remove{
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+body{
+  background-color: #e0e0e0;
+}
